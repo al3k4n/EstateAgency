@@ -1,0 +1,111 @@
+.form{
+    display: flex;
+   justify-content: center;
+    background-color: #5d39b1;
+    padding: 40px;
+    color: #fff;
+}
+.formControl{
+    margin-top: 10rem;
+}
+
+.form select{
+    width: 100%;
+    padding: 10px;
+}
+
+.form button{
+    margin-left: 40%;
+    padding: 10px;
+    width: 8rem;
+    background: rgb(2, 207, 2);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+@media (max-width: 800px) {
+    .form button{
+        margin-left: 25%;
+        padding: 10px;
+        width: 8rem;
+        background: rgb(2, 207, 2);
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+    }
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #ccc;
+    outline: none; 
+    background: #ccc;  
+}
+.form input:focus{
+    background-color: #fff;
+    border: 1px solid rgb(82, 82, 190);
+}
+.headings  h4{
+    margin-top: -25px;
+}
+.firstlabel{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.inputs{
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    margin-left: 50px;   
+}
+.errormsg{
+    margin-left: 41%;
+    color:  #b40e0e;
+    font-weight: 900;
+}
+.successmsg{
+    margin-left: 41%;
+    color: #156401;
+}
+@media (max-width: 800px) {
+    .errormsg{
+        margin-left: 25%;
+        color:  #b40e0e;
+        font-weight: 900;
+    }
+    .successmsg{
+        margin-left: 25%;
+        color: #156401;
+    }
+    
+    
+}
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+  
+  .errorText{
+    color: #ff8800;
+  } 
+
